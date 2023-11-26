@@ -10,8 +10,8 @@
             Console.WriteLine(MyName);
             Console.ReadKey();
 
-            string MyGitUsername = "Noddek";
-            Console.WriteLine("\n\nMy Git username is: {0}", MyGitUsername);
+            const string MyGitUsername = "Noddek";
+            Console.WriteLine("\n\nMy Git username is {0}.", MyGitUsername);
         }
     }
 }
