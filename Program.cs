@@ -14,6 +14,7 @@
             Console.WriteLine("\n\nMy Git username is {0}.", MyGitUsername);
 
             Console.WriteLine("\nI'm taking a Skillfactory course.");
+            Console.WriteLine("\nThe current module is:\n\n\t\t\tModule 3.2");
 
         }
     }
