@@ -84,6 +84,11 @@
             MyFavoriteDay = DaysOfWeek.Friday;
             Console.WriteLine("\t{0}", MyFavoriteDay);
 
+            Console.WriteLine("\nModule 3.5. Console input and output.");
+            Console.WriteLine("\nTask 3.5.2. Response:");
+            Console.WriteLine("\n\tПривет,\n мир!");
+            Console.WriteLine("\n\tOperator:\n\tConsole.WriteLine(\"\\n\\tПривет,\\n мир!\");");
+
             Console.ReadKey();
         }
     }
