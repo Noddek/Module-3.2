@@ -18,6 +18,19 @@
 
             Console.WriteLine("\nTask 3.2.8. Output the # character of the ASCII table to the screen. \n\n\tResponse: \x23");
 
+            Console.WriteLine("\nBoolean literals \'true\' and \'false\':");
+            Console.WriteLine("\t{0}\n\t{1}", true, false);
+
+            Console.WriteLine("\nInteger literals:");
+            Console.WriteLine("\t{0}", 5);
+            Console.WriteLine("\t{0}", 100);
+            Console.WriteLine("\t0b0101 in binary number system is equal to {0} in decimal number system", 0b0101);
+            Console.WriteLine("\t0xAF in hexadecimal number system is equal to {0} in decimal number system", 0xAF);
+
+            Console.WriteLine("\nReal literals:");
+            Console.WriteLine("\t{0}", 5.5);
+            Console.WriteLine("\t-100.0 is displayed on the screen as {0}", -100.0);
+
             Console.ReadKey();
         }
     }
