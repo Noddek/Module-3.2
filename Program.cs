@@ -41,6 +41,45 @@
             double ShoeSize = 37.5;
             Console.WriteLine("\tMy shoe size is " + ShoeSize + ".");
 
+            Console.WriteLine("\nMin and Max values of numeric data types and character type:");
+            Console.Write("\tbyte");
+            Console.Write("\tMin = {0}", byte.MinValue);
+            Console.Write("\tMax = {0}\n", byte.MaxValue);
+            Console.Write("\tsbyte");
+            Console.Write("\tMin = {0}", sbyte.MinValue);
+            Console.Write("\tMax = {0}\n", sbyte.MaxValue);
+            Console.Write("\tshort");
+            Console.Write("\tMin = {0}", short.MinValue);
+            Console.Write("\tMax = {0}\n", short.MaxValue);
+            Console.Write("\tushort");
+            Console.Write("\tMin = {0}", ushort.MinValue);
+            Console.Write("\tMax = {0}\n", ushort.MaxValue);
+            Console.Write("\tint");
+            Console.Write("\tMin = {0}", int.MinValue);
+            Console.Write("\tMax = {0}\n", int.MaxValue);
+            Console.Write("\tuint");
+            Console.Write("\tMin = {0}", uint.MinValue);
+            Console.Write("\tMax = {0}\n", uint.MaxValue);
+            Console.Write("\tlong");
+            Console.Write("\tMin = {0}", long.MinValue);
+            Console.Write("\tMax = {0}\n", long.MaxValue);
+            Console.Write("\tulong");
+            Console.Write("\tMin = {0}", ulong.MinValue);
+            Console.Write("\tMax = {0}\n", ulong.MaxValue);
+            Console.Write("\tfloat");
+            Console.Write("\tMin = {0}", float.MinValue);
+            Console.Write("\tMax = {0}\n", float.MaxValue);
+            Console.Write("\tdouble");
+            Console.Write("\tMin = {0}", double.MinValue);
+            Console.Write("\tMax = {0}\n", double.MaxValue);
+            Console.Write("\tdecimal");
+            Console.Write("\tMin = {0}", decimal.MinValue);
+            Console.Write("\tMax = {0}\n", decimal.MaxValue);
+            Console.Write("\tchar");
+            Console.Write("\tMin = {0}", char.MinValue);
+            Console.Write("\tMax = {0}\n", char.MaxValue);
+            
+
             Console.ReadKey();
         }
     }
