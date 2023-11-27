@@ -31,6 +31,16 @@
             Console.WriteLine("\t{0}", 5.5);
             Console.WriteLine("\t-100.0 is displayed on the screen as {0}", -100.0);
 
+            Console.WriteLine("\nTask 3.3.2. Example of a questionnaire.");
+            string Name = "Jane";
+            Console.WriteLine("\tMy name is " + Name + ".");
+            byte Age = 27;
+            Console.WriteLine("\tMy age is " + Age + ".");
+            bool DoIHaveAPet = true;
+            Console.WriteLine("\tDo I have a pet? " + DoIHaveAPet + ".");
+            double ShoeSize = 37.5;
+            Console.WriteLine("\tMy shoe size is " + ShoeSize + ".");
+
             Console.ReadKey();
         }
     }
