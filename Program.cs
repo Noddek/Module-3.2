@@ -78,9 +78,33 @@
             Console.Write("\tchar");
             Console.Write("\tMin = {0}", char.MinValue);
             Console.Write("\tMax = {0}\n", char.MaxValue);
-            
+
+            Console.WriteLine("\nModule 3.4. Enumerations.");
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysOfWeek.Friday;
+            Console.WriteLine("\t{0}", MyFavoriteDay);
 
             Console.ReadKey();
         }
     }
+
+    enum DaysOfWeek : byte
+    {
+        Tuesday,
+        Monday,
+        Wednesday,
+        Friday
+    }
+
+    // Task 3.4.3. Enumeration Semaphore:
+    enum Semaphore
+    {
+        Red = 100,
+        Yellow = 200,
+        Green = 300
+    }
+
+
 }
+
+
