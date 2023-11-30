@@ -114,11 +114,29 @@
             Console.WriteLine("\tHello!");
             Console.WriteLine("\tMy name is {0}", Name1);
             Console.WriteLine("\tAnd what is your name?");
-            string YourName = Console.ReadLine();
-            Console.WriteLine("\tGreat to see you, {0}!", YourName);
+            // string YourName = Console.ReadLine();
+            // Console.WriteLine("\tGreat to see you, {0}!", YourName);
 
             Console.WriteLine("\nTask 3.5.5. Response:");
-            string str = Console.ReadLine();
+            // string str = Console.ReadLine();
+
+            Console.WriteLine("\nModule 3.6. Basic operations C#.");
+            double result1 = 5.0 / 2.0;
+            Console.WriteLine("\t 5 / 2 = {0}", result1);
+            double result2 = 5.0 % 2.0;
+            Console.WriteLine("\t 5 % 2 = {0}", result2);
+            int counter = 10;
+            Console.WriteLine("\t Value: {0} Prefix increment: {1}", counter, ++counter);
+            counter = 10;
+            Console.WriteLine("\t Value: {0} Postfix increment: {1}", counter, counter++);
+            Console.WriteLine("\t Value: {0} Postfix increment: {1}", counter, counter++);
+            Console.WriteLine("\t Value: {0} Postfix increment: {1}", counter, counter++);
+            double result3 = 10.0 * 2.0 / 5.0;
+            Console.WriteLine("Value: {0}", result3);
+
+            Console.WriteLine("\nTask 3.6.3. Response:");
+            double result4 = 5.0 / 2.0 * 3.0;
+            Console.WriteLine("\tValue: {0}", result4);
 
             Console.ReadKey();
         }
