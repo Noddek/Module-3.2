@@ -32,8 +32,8 @@
             Console.WriteLine("\t-100.0 is displayed on the screen as {0}", -100.0);
 
             Console.WriteLine("\nTask 3.3.2. Example of a questionnaire.");
-            string Name = "Jane";
-            Console.WriteLine("\tMy name is " + Name + ".");
+            string Name1 = "Jane";
+            Console.WriteLine("\tMy name is " + Name1 + ".");
             byte Age = 27;
             Console.WriteLine("\tMy age is " + Age + ".");
             bool DoIHaveAPet = true;
@@ -88,6 +88,37 @@
             Console.WriteLine("\nTask 3.5.2. Response:");
             Console.WriteLine("\n\tПривет,\n мир!");
             Console.WriteLine("\n\tOperator:\n\tConsole.WriteLine(\"\\n\\tПривет,\\n мир!\");");
+
+            Console.WriteLine("\nTrying ways to output to the screen:\n");
+            string Name2 = "Евгения";
+            Console.WriteLine("\tПривет, мир");
+            Console.WriteLine();
+            Console.WriteLine("\tКонкатенация: Меня зовут " + Name2);
+            Console.WriteLine($"\tИнтерполяция: Меня зовут {Name2}");
+
+            Console.WriteLine("\nTask 3.5.3. Response:");
+            byte age = 100;
+            Console.WriteLine($"\tМой возраст {age}");
+
+            Console.WriteLine("\n3rd way to output to the screen:\n");
+            Console.WriteLine("\tМеня зовут {0}", Name2);
+            Console.WriteLine("\tМеня зовут {0}", "Маша");
+            byte weight = 100;
+            Console.WriteLine("\tМой возраст {0}, мой вес {1}", age, weight);
+
+            Console.WriteLine("\nTask 3.5.4. Response:");
+            string favcolor = "black";
+            Console.WriteLine("{0}\n {1}\n {2}", Name1, age, favcolor);
+
+            Console.WriteLine("\nReading console input:");
+            Console.WriteLine("\tHello!");
+            Console.WriteLine("\tMy name is {0}", Name1);
+            Console.WriteLine("\tAnd what is your name?");
+            string YourName = Console.ReadLine();
+            Console.WriteLine("\tGreat to see you, {0}!", YourName);
+
+            Console.WriteLine("\nTask 3.5.5. Response:");
+            string str = Console.ReadLine();
 
             Console.ReadKey();
         }
