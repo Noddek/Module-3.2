@@ -157,6 +157,34 @@
             Console.WriteLine("\tValue: {0}", result5);
 
             
+            Console.WriteLine("\nModule 3.7. Type conversion (type casting).");
+            int olddata = 6;
+            byte data1 = (byte)olddata;
+            string data2 = olddata.ToString();
+            
+            Console.Write("\tEnter your age: ");
+            int age2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\tYour age is {0}", age2);
+            
+            Console.Write("\tEnter your age: ");
+            int age3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("\tYour age is {0}", age3);
+            
+            Console.Write("\tEnter your age: ");
+            int age4;
+            bool is_age4_correct = int.TryParse(Console.ReadLine(), out age4);
+            Console.WriteLine("\tYour age is {0}", age4);
+
+            Console.WriteLine("\nTask 3.7.3. Checking:");
+            Console.Write("\tEnter your name: ");
+            string Name3 = Console.ReadLine();
+            Console.Write("\tEnter your age: ");
+            byte age5 = (byte) int.Parse(Console.ReadLine());
+            Console.WriteLine("\tYour name is {0} and age is {1}.", Name3, age5);
+            
+            
+            
+            
             
             
 
