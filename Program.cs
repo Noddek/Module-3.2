@@ -1,4 +1,8 @@
-﻿namespace VarConstLit
+﻿using System.Net.NetworkInformation;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace VarConstLit
 {
     internal class Program
     {
@@ -158,6 +162,9 @@
 
             
             Console.WriteLine("\nModule 3.7. Type conversion (type casting).");
+
+            Console.WriteLine("\nExplicit conversion (explicit casting): [commented]");
+
             int olddata = 6;
             byte data1 = (byte)olddata;
             string data2 = olddata.ToString();
@@ -191,20 +198,59 @@
             Console.WriteLine("\tYour name is {0} and age is {1}.", Name4, age6);
 
             */
-
             
-           
-            Console.WriteLine("\nTask 3.7.4. DayOfWeek enumeration:");
+            Console.WriteLine("\nTask 3.7.4. DayOfWeek enumeration: [commented]");
+            /*
             Console.Write("\tEnter your name: ");
             string Name5 = Console.ReadLine();
             Console.Write("\tEnter your age: ");
             byte age7 = checked((byte)int.Parse(Console.ReadLine()));
             Console.WriteLine("\tYour name is {0} and your age is {1}.", Name5, age7);
             Console.Write("\tWhat is your favorite day of week? ");
-            DayOfWeek daynumber = (DayOfWeek)int.Parse(Console.ReadLine());
-            Console.Write("\tYour favorite day is {0}.", daynumber);
+            DayOfWeek daynumber1 = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.Write("\tYour favorite day is {0}.", daynumber1);
+            */
 
+            Console.WriteLine("\nImplicit conversion (implicit casting): [commented]");
+            /*
+            Console.Write("\tEnter your age: ");
+            byte age8 = checked((byte)int.Parse(Console.ReadLine()));
+            int intage = age8;
+            Console.WriteLine("\tYour age is {0}.", intage);
+            */
 
+            Console.WriteLine("\nImplicit typing: [commented]");
+
+            /*
+            //Implicit typing requires that the variable be initialized right away.
+            Console.Write("\tEnter your age: ");
+            var age9 = checked((byte)int.Parse(Console.ReadLine())); 
+            Console.WriteLine("\tYour age is {0}.", age9);
+            Console.Write("\tWhat is your favorite day of week? ");
+            var daynumber2 = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("\tYour favorite day is {0}", daynumber2);
+
+            Console.Write("\tEnter your age: ");
+            var age10 = int.Parse(Console.ReadLine());
+            Console.WriteLine("\tYour age is {0}.", age10);
+            Console.Write("\tWhat is your favorite day of week? ");
+            var daynumber3 = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("\tYour favorite day is {0}", daynumber3);
+
+            var bodyheight = 162;
+            var shoesize = 37.5;
+            Console.WriteLine("\n\tYou are {0} sm in height.", bodyheight);
+            Console.WriteLine("\tYour shoe size is {0}.", shoesize);
+            */
+
+            Console.WriteLine("\nFinal task of Module 3.7: User Questionnaire.");
+            Console.Write("\tВведите имя: ");
+            var Name6 = Console.ReadLine();
+            Console.Write("\tВведите возраст: ");
+            var age11 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\tВведите дату рождения: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("\tВаше имя {0}, ваш возраст {1}, ваша дата рождения {2}.", Name6, age11, birthdate);
 
 
             Console.ReadKey();
