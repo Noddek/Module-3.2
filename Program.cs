@@ -162,6 +162,8 @@
             byte data1 = (byte)olddata;
             string data2 = olddata.ToString();
             
+            /*
+            
             Console.Write("\tEnter your age: ");
             int age2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\tYour age is {0}", age2);
@@ -181,12 +183,29 @@
             Console.Write("\tEnter your age: ");
             byte age5 = (byte) int.Parse(Console.ReadLine());
             Console.WriteLine("\tYour name is {0} and age is {1}.", Name3, age5);
+
+            Console.Write("\tEnter your name: ");
+            string Name4 = Console.ReadLine();
+            Console.Write("\tEnter your age: ");
+            byte age6 = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("\tYour name is {0} and age is {1}.", Name4, age6);
+
+            */
+
             
-            
-            
-            
-            
-            
+           
+            Console.WriteLine("\nTask 3.7.4. DayOfWeek enumeration:");
+            Console.Write("\tEnter your name: ");
+            string Name5 = Console.ReadLine();
+            Console.Write("\tEnter your age: ");
+            byte age7 = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("\tYour name is {0} and your age is {1}.", Name5, age7);
+            Console.Write("\tWhat is your favorite day of week? ");
+            DayOfWeek daynumber = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.Write("\tYour favorite day is {0}.", daynumber);
+
+
+
 
             Console.ReadKey();
         }
