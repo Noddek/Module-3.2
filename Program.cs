@@ -97,18 +97,18 @@
             Console.WriteLine($"\tИнтерполяция: Меня зовут {Name2}");
 
             Console.WriteLine("\nTask 3.5.3. Response:");
-            byte age = 100;
-            Console.WriteLine($"\tМой возраст {age}");
+            byte age1 = 100;
+            Console.WriteLine($"\tМой возраст {age1}");
 
             Console.WriteLine("\n3rd way to output to the screen:\n");
             Console.WriteLine("\tМеня зовут {0}", Name2);
             Console.WriteLine("\tМеня зовут {0}", "Маша");
             byte weight = 100;
-            Console.WriteLine("\tМой возраст {0}, мой вес {1}", age, weight);
+            Console.WriteLine("\tМой возраст {0}, мой вес {1}", age1, weight);
 
             Console.WriteLine("\nTask 3.5.4. Response:");
             string favcolor = "black";
-            Console.WriteLine("{0}\n {1}\n {2}", Name1, age, favcolor);
+            Console.WriteLine("{0}\n {1}\n {2}", Name1, age1, favcolor);
 
             Console.WriteLine("\nReading console input:");
             Console.WriteLine("\tHello!");
@@ -137,6 +137,28 @@
             Console.WriteLine("\nTask 3.6.3. Response:");
             double result4 = 5.0 / 2.0 * 3.0;
             Console.WriteLine("\tValue: {0}", result4);
+
+            Console.WriteLine("\nAssignment operations:");
+            int check = 670;
+            Console.WriteLine("\tint check = 670;\tcheck = {0}", check);
+            check += 330;
+            Console.WriteLine("\tcheck += 330;\tcheck = {0}", check);
+            check -= 500;
+            Console.WriteLine("\tcheck -= 500;\tcheck = {0}", check);
+            check *= 3;
+            Console.WriteLine("\tcheck *= 3;\tcheck = {0}", check);
+            check /= 5;
+            Console.WriteLine("\tcheck /= 5;\tcheck = {0}", check);
+            check %= 7;
+            Console.WriteLine("\tcheck %= 7;\tcheck = {0}", check);
+
+            Console.WriteLine("\nTask 3.6.7. Response:");
+            double result5 = 10 % 3;
+            Console.WriteLine("\tValue: {0}", result5);
+
+            
+            
+            
 
             Console.ReadKey();
         }
